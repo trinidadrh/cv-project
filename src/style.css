@@ -1,0 +1,78 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#app-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xx-large;
+  color:goldenrod;
+  text-shadow: 2px 2px black;
+}
+
+#forms-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+#header-form {
+  display: grid;
+  border-right: 2px solid black;
+  background-color: darkkhaki;
+}
+
+#education-form {
+  display: grid;
+  border-right: 2px solid black;
+  background-color: tomato;
+}
+
+#experience-form {
+  display: grid;
+  border-right: 2px solid black;
+  background-color: thistle;
+}
+
+#skills-form {
+  display: flex;
+  background-color:lightskyblue;
+}
+
+#objective-form {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+}
+
+form > * {
+  margin: 1rem;
+}
+
+#contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 750px;
+  padding: 5rem;
+  margin: 1rem;
+  border: 2px solid black;
+}
+
+#header-content {
+  display: flex;
+  justify-content: center;
+  max-width: 750px;
+  text-align: center;
+}
+
+label {
+  display: grid;
+  margin-bottom: 2px;
+}
